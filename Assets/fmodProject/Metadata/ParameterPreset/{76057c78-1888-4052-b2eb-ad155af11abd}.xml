@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{76057c78-1888-4052-b2eb-ad155af11abd}">
+		<property name="name">
+			<value>isGraunded</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d2aa56d1-e1f9-4721-a384-8f628d062821}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{15e6c6e2-37af-4405-969a-b64071bb6881}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{15e6c6e2-37af-4405-969a-b64071bb6881}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>jump</value>
+			<value>land</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

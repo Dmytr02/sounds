@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{7f8d0f23-a552-43a9-adfe-fd02edbe3822}">
+		<property name="name">
+			<value>footsvicher</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d2aa56d1-e1f9-4721-a384-8f628d062821}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c1d7701b-af1b-44e8-a1fe-cb56e7a95030}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c1d7701b-af1b-44e8-a1fe-cb56e7a95030}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>stone</value>
+			<value>wood</value>
+			<value>bad</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
