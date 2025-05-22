@@ -39,9 +39,9 @@ public class Footsteps : MonoBehaviour
         // Footsteps
         if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
         {
-            if (IsGrounded() && Time.time - lastFootstepTime > 0.5f)
+            if (IsGrounded() && Time.time - lastFootstepTime > 0.5f) 
             {
-                lastFootstepTime = Time.time;
+                lastFootstepTime = Time.time; 
                 PlayFootsteps();
             }
         }         
