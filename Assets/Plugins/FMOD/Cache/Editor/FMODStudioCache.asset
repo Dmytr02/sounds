@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: Assets/fmodProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638829029220600804
+  lastModified: 638841095483082166
   FileSizes:
   - Name: Desktop
-    Value: 1152
+    Value: 1602
   Exists: 1
 --- !u!114 &-8240700607741952104
 MonoBehaviour:
@@ -46,6 +46,33 @@ MonoBehaviour:
   - jump
   - land
   Exists: 1
+--- !u!114 &-6797373212071603723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Outside
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Outside
+  Guid:
+    Data1: 1902919629
+    Data2: 1173690160
+    Data3: -2036410448
+    Data4: -1426471157
+  Banks:
+  - {fileID: 2556435706950869997}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-5705007219796614491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,12 +206,15 @@ MonoBehaviour:
   - {fileID: -3166485257023481377}
   - {fileID: 9139306530024365988}
   - {fileID: 1232411186580922515}
+  - {fileID: 6506651985229016743}
+  - {fileID: 2182061280043152004}
+  - {fileID: -6797373212071603723}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2556435706950869997}
   StringsBanks:
   - {fileID: -8618994181697183303}
-  cacheTime: 638829029220600804
+  cacheTime: 638841095483082166
   cacheVersion: 131617
 --- !u!114 &1232411186580922515
 MonoBehaviour:
@@ -214,6 +244,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 490
+--- !u!114 &2182061280043152004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Inside reverb
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Inside reverb
+  Guid:
+    Data1: -1552570169
+    Data2: 1283266786
+    Data3: 253061520
+    Data4: 1834859914
+  Banks:
+  - {fileID: 2556435706950869997}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &2556435706950869997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,10 +286,10 @@ MonoBehaviour:
   Path: Assets/fmodProject/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638829029220585755
+  lastModified: 638841095483062100
   FileSizes:
   - Name: Desktop
-    Value: 6948544
+    Value: 6951328
   Exists: 1
 --- !u!114 &4399559191168318624
 MonoBehaviour:
@@ -314,6 +371,33 @@ MonoBehaviour:
   - wood
   - bad
   Exists: 1
+--- !u!114 &6506651985229016743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Halth
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Halth
+  Guid:
+    Data1: -964944721
+    Data2: 1128994642
+    Data3: 1358444208
+    Data4: -1809831919
+  Banks:
+  - {fileID: 2556435706950869997}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &7994663615976550295
 MonoBehaviour:
   m_ObjectHideFlags: 0

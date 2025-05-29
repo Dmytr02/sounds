@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Snapshot" id="{a375a8c7-18e2-4c7d-9069-150f8abd5d6d}">
+		<property name="name">
+			<value>Inside reverb</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{1d5dc070-dd1c-4406-b362-3822f8a4d329}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{b76c40a0-47fe-48f1-b268-b3128bd4d6f5}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{1ddee677-a6ca-4325-a2af-7591849f20fd}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{d827e763-2a8e-4437-b526-e77649c8df54}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{be78f2e9-4daa-48fa-a266-442138c6f922}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{b76c40a0-47fe-48f1-b268-b3128bd4d6f5}" />
+	<object class="MarkerTrack" id="{1ddee677-a6ca-4325-a2af-7591849f20fd}" />
+	<object class="Timeline" id="{d827e763-2a8e-4437-b526-e77649c8df54}" />
+	<object class="SnapshotMasterTrack" id="{be78f2e9-4daa-48fa-a266-442138c6f922}" />
+</objects>

@@ -95,6 +95,7 @@
     <Compile Include="Assets\Scripts\OldScripts\Fire_start.cs" />
     <Compile Include="Assets\Scripts\Interactor.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <None Include="Assets\fmodProject\Metadata\VCA\{3ec69dba-32c0-4586-acbf-fce9ec5d23aa}.xml" />
     <None Include="Assets\fmodProject\Metadata\ParameterPresetFolder\{d2aa56d1-e1f9-4721-a384-8f628d062821}.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\fmodProject\Metadata\EncodingSetting\{0955b64a-bf04-4a77-bd5c-7572a9985868}.xml" />
@@ -103,6 +104,7 @@
     <None Include="Assets\fmodProject\Metadata\SnapshotGroup\{9dc1f504-ee15-442d-9b0f-bd730687b271}.xml" />
     <None Include="Assets\fmodProject\Metadata\Asset\{52a4de03-36a7-436b-bb7a-52460194b1c1}.xml" />
     <None Include="Assets\fmodProject\Metadata\Event\{aea7e3cb-bdff-4ce1-8975-113487c353be}.xml" />
+    <None Include="Assets\fmodProject\Metadata\Snapshot\{a375a8c7-18e2-4c7d-9069-150f8abd5d6d}.xml" />
     <None Include="Assets\fmodProject\Metadata\EventFolder\{9d61c74b-d1ff-492b-bce8-327e955182d7}.xml" />
     <None Include="Assets\fmodProject\Metadata\AudioFile\{0c02ea74-a81f-4ea6-b153-dd76d7e6f641}.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -111,8 +113,10 @@
     <None Include="Assets\fmodProject\Metadata\Event\{b091236f-a567-4f3e-b085-91c50960682d}.xml" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\fmodProject\Metadata\Event\{1e172004-fd19-4e0f-9015-fbf9073a86f0}.xml" />
+    <None Include="Assets\fmodProject\Metadata\Snapshot\{716c3fcd-1730-45f5-b0d7-9e860bc7f9aa}.xml" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\fmodProject\Metadata\Asset\{937db625-5c53-4693-bd21-92ea1094db69}.xml" />
+    <None Include="Assets\fmodProject\Metadata\Snapshot\{c67c1caf-1752-434b-b036-f85011282094}.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\fmodProject\Metadata\AudioFile\{116f70ba-65c7-4558-ac11-b7969811c5a5}.xml" />
@@ -121,12 +125,14 @@
     <None Include="Assets\fmodProject\Metadata\AudioFile\{052ec67a-0b4e-48db-b87f-ee501d0a6951}.xml" />
     <None Include="Assets\fmodProject\Metadata\AudioFile\{d7cdcdf6-f644-49a9-8c81-d3b0bf8bcaf6}.xml" />
     <None Include="Assets\fmodProject\Metadata\Event\{db5faa18-2491-4311-bf3c-c9e9e0fdd84b}.xml" />
+    <None Include="Assets\fmodProject\Metadata\Group\{142ed9e5-cfe2-4acd-acdf-f33a8a2eb009}.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\fmodProject\Metadata\Event\{d5c39d02-3f10-4392-92b5-ef80a75db845}.xml" />
     <None Include="Assets\fmodProject\Metadata\AudioFile\{ccb588d4-658b-4677-babe-dabf1283b8a6}.xml" />
     <None Include="Assets\fmodProject\Metadata\Asset\{13c3aaa5-7482-46b0-a930-daea7b3ba6b9}.xml" />
     <None Include="Assets\fmodProject\Metadata\AudioFile\{9c4f1fc0-024d-46ea-a0b7-d677c1cb89c7}.xml" />
     <None Include="Assets\fmodProject\Metadata\AudioFile\{dce67716-72d0-4305-9e79-b8d943289529}.xml" />
+    <None Include="Assets\fmodProject\Metadata\VCA\{120e1ca9-69a6-43cd-b73c-87f5aa94ddbf}.xml" />
     <None Include="Assets\fmodProject\Metadata\SandboxFolder\{1c0ee67a-0011-4372-97e5-1c3c78bd230e}.xml" />
     <None Include="Assets\fmodProject\Metadata\Bank\{7fbe39d4-e40c-40e6-b796-93e875e2e713}.xml" />
     <None Include="Assets\fmodProject\Metadata\ProfilerFolder\{4cca2cce-e8ac-4e3f-9fcf-833bab9397fe}.xml" />
@@ -149,6 +155,7 @@
     <None Include="Assets\fmodProject\Metadata\Mixer.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\fmodProject\Metadata\AudioFile\{0d625585-4d1e-4739-ac9e-ecbb48ec3f4f}.xml" />
+    <None Include="Assets\fmodProject\Metadata\Group\{01bfcee4-076b-45ec-8e0a-89259f2a1286}.xml" />
     <None Include="Assets\fmodProject\Metadata\AudioFile\{5baf8450-8bb7-4dad-a1ac-bbe3b2e5d5f4}.xml" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\fmodProject\Metadata\Asset\{695296b9-256d-4be1-8084-338f616ab1e9}.xml" />
@@ -159,6 +166,7 @@
     <None Include="Assets\fmodProject\Metadata\AudioFile\{9a112812-c49b-4f44-a339-9ae19fcd9286}.xml" />
     <None Include="Assets\fmodProject\Metadata\AudioFile\{3d30266a-6b7b-4e5e-82f9-690ba5f9a887}.xml" />
     <None Include="Assets\fmodProject\Metadata\AudioFile\{65f47b37-037f-4b0c-b5f0-e3d799cd965e}.xml" />
+    <None Include="Assets\fmodProject\Metadata\VCA\{41ac4a42-e07b-443d-bd82-2667c464642d}.xml" />
     <None Include="Assets\fmodProject\Metadata\Tags.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\fmodProject\Metadata\EffectPresetFolder\{b0606a59-56c9-4d6e-a35e-810049001a46}.xml" />
@@ -166,8 +174,10 @@
     <None Include="Assets\fmodProject\Metadata\Asset\{11ca70de-d6f4-48da-b6ea-aa275cdec5d5}.xml" />
     <None Include="Assets\fmodProject\Metadata\ParameterPreset\{7f8d0f23-a552-43a9-adfe-fd02edbe3822}.xml" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\fmodProject\Metadata\Group\{a858e683-ba5d-4d3d-8bc4-94f4549d7c64}.xml" />
     <None Include="Assets\fmodProject\Metadata\AudioFile\{69f5e748-8219-4af0-977c-5afcf14fb346}.xml" />
     <None Include="Assets\fmodProject\Metadata\Asset\{c8172d44-0461-4364-a666-92a459357531}.xml" />
+    <None Include="Assets\fmodProject\Metadata\Group\{593b26d4-f7d2-479f-8f27-4e16cd64c39d}.xml" />
     <None Include="Assets\fmodProject\Metadata\AudioFile\{30ee42a6-66be-4511-826e-5253ad48e46d}.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\fmodProject\Metadata\Workspace.xml" />
