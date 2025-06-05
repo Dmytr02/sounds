@@ -28,7 +28,7 @@
 			<value>21999.9902</value>
 		</property>
 		<property name="qualityA">
-			<value>0.225586206</value>
+			<value>0.623275876</value>
 		</property>
 	</object>
 	<object class="SFXReverbEffect" id="{eff0b5d5-8175-495e-9b1d-dca6deb6cf5f}" />

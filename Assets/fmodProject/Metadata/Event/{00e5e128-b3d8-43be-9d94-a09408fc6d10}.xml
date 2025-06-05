@@ -136,6 +136,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{0915dc01-c2f0-44ce-b9dc-e541cdedb0ef}">
+		<property name="volume">
+			<value>7</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{67104ee9-fc53-4e14-a052-c575c3523470}</destination>
 		</relationship>
@@ -157,7 +160,7 @@
 			<value>Blue Light 2</value>
 		</property>
 		<property name="length">
-			<value>0.50185416666666671</value>
+			<value>0.29999999999999999</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{1dcf8df7-676f-4363-bb7d-726890d458a7}</destination>
@@ -193,7 +196,7 @@
 			<value>Blue Light 1</value>
 		</property>
 		<property name="length">
-			<value>0.80660416666666668</value>
+			<value>0.29999999999999999</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{3227ed58-1595-4642-b846-59a71a2c5298}</destination>
@@ -229,7 +232,10 @@
 			<value>Yellow Light 2</value>
 		</property>
 		<property name="length">
-			<value>0.48704166666666665</value>
+			<value>0.29999999999999999</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.10000000000000001</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{9328f201-ab1b-4b0d-9586-82c8a7151a5e}</destination>
@@ -262,7 +268,7 @@
 			<value>Yellow Light 1</value>
 		</property>
 		<property name="length">
-			<value>0.64939583333333328</value>
+			<value>0.29999999999999999</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{8450172d-d377-475f-a2f1-cb49a8039691}</destination>

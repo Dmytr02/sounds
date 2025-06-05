@@ -1,6 +1,7 @@
 using FMODUnity;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
@@ -22,7 +23,9 @@ public class Doors : MonoBehaviour, IInteractable
     public EventReference insideRoomSnap;
 
     ////////////////// FMOD Section End ///////////////////
-
+    
+    [SerializeField] private Collider roomCollider;
+    
     public void Interact()
     {
         if (!isRotating)
@@ -74,14 +77,14 @@ public class Doors : MonoBehaviour, IInteractable
         if (doorsOpened == true)
         {            
             DoorsSound = FMODUnity.RuntimeManager.CreateInstance(DoorsEvent);
-            DoorsSound.setParameterByNameWithLabel("Doors", "Close");
+            DoorsSound.setParameterByNameWithLabel("door", "close");
             DoorsSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
             DoorsSound.start();
             //FMODUnity.RuntimeManager.PlayOneShot(DoorsEvent);
         }
         else
         {
-            DoorsSound.setParameterByNameWithLabel("Doors", "Open");
+            DoorsSound.setParameterByNameWithLabel("door", "open");
             DoorsSound.start();
             DoorsSound.release();
         }
@@ -89,7 +92,19 @@ public class Doors : MonoBehaviour, IInteractable
 
     void RoomsSnap()
     {
-        RoomAmbient roomAmbient = FindObjectOfType<RoomAmbient>();
+        if (!doorsOpened && Physics.CheckBox(roomCollider.bounds.center, roomCollider.bounds.extents, Quaternion.identity, LayerMask.GetMask("player")))
+        {
+            Debug.Log("im in!");
+            InsideRoom = FMODUnity.RuntimeManager.CreateInstance(insideRoomSnap);
+            InsideRoom.start();
+        }
+        else
+        {
+            Debug.Log("it works");
+            InsideRoom.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            InsideRoom.release();
+        }
+        /*RoomAmbient roomAmbient = FindObjectOfType<RoomAmbient>();
 
         if (roomAmbient.ambientActivated == true && doorsOpened == false)
         {
@@ -105,7 +120,7 @@ public class Doors : MonoBehaviour, IInteractable
                 InsideRoom.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
                 InsideRoom.release();
             }
-        }
+        }*/
     }
 
     void DoorsInteract()
