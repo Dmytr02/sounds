@@ -34,36 +34,17 @@ public class Doors : MonoBehaviour, IInteractable
         }
     }
 
-    IEnumerator CloseOverTime()
+    IEnumerator CloseOverTime(float time, Quaternion targetRotation)
     {
         isRotating = true;
         float elapsedTime = 0f;
         Quaternion startRotation = transform.rotation;
-        Quaternion targetRotation = Quaternion.Euler(0, 65, 0) * startRotation; // Rotating around Y-axis by 90 degrees
+        targetRotation = targetRotation * startRotation; // Rotating around Y-axis by 90 degrees
 
-        while (elapsedTime < 1f) // Rotate over 1 second
+        while (elapsedTime < time) // Rotate over 1 second
         {
-            transform.rotation = Quaternion.Lerp(startRotation, targetRotation, elapsedTime);
-            elapsedTime += Time.deltaTime * rotationSpeed / 90f; // Normalizing to 90 degrees rotation
-            yield return null;
-        }
-
-        // Ensure the rotation is exactly what we want at the end
-        transform.rotation = targetRotation;
-        isRotating = false;
-    }
-
-    IEnumerator OpenOverTime()
-    {
-        isRotating = true;
-        float elapsedTime = 0f;
-        Quaternion startRotation = transform.rotation;
-        Quaternion targetRotation = Quaternion.Euler(0, -65, 0) * startRotation; // Rotating around Y-axis by 90 degrees
-
-        while (elapsedTime < 1f) // Rotate over 1 second
-        {
-            transform.rotation = Quaternion.Lerp(startRotation, targetRotation, elapsedTime);
-            elapsedTime += Time.deltaTime * rotationSpeed / 90f; // Normalizing to 90 degrees rotation
+            transform.rotation = Quaternion.Lerp(startRotation, targetRotation, elapsedTime/time);
+            elapsedTime += Time.deltaTime; // Normalizing to 90 degrees rotation
             yield return null;
         }
 
@@ -127,14 +108,14 @@ public class Doors : MonoBehaviour, IInteractable
     {
         if (doorsOpened == true)
         {
-            StartCoroutine(CloseOverTime());
+            StartCoroutine(CloseOverTime(0.45f, Quaternion.Euler(0, 65, 0)));
             PlaySound();
             doorsOpened = false;
             RoomsSnap();
         }
         else
         {
-            StartCoroutine(OpenOverTime());
+            StartCoroutine(CloseOverTime(0.625f, Quaternion.Euler(0, -65, 0)));
             PlaySound();
             doorsOpened = true;
             RoomsSnap();

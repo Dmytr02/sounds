@@ -6,10 +6,10 @@ using FMOD.Studio;
 
 public class VCA : MonoBehaviour
 {
-    FMOD.Studio.VCA GlobalVCA;
-    FMOD.Studio.VCA MusicVCA;
-    FMOD.Studio.VCA TavernVCA;
-    FMOD.Studio.VCA OutsideVCA;
+    [SerializeField] FMOD.Studio.VCA GlobalVCA;
+    [SerializeField] FMOD.Studio.VCA MusicVCA;
+    [SerializeField] FMOD.Studio.VCA TavernVCA;
+    [SerializeField] FMOD.Studio.VCA OutsideVCA;
 
     private bool muteActive = true;
     private bool musicMuteActive = false;
@@ -18,7 +18,7 @@ public class VCA : MonoBehaviour
 
     private void Start()
     {
-        GlobalVCA = FMODUnity.RuntimeManager.GetVCA("vca:/Mute");
+        GlobalVCA = FMODUnity.RuntimeManager.GetVCA("vca:/Main");
         MusicVCA = FMODUnity.RuntimeManager.GetVCA("vca:/Music");
         TavernVCA = FMODUnity.RuntimeManager.GetVCA("vca:/Tavern_amb");
         OutsideVCA = FMODUnity.RuntimeManager.GetVCA("vca:/Outside_amb");

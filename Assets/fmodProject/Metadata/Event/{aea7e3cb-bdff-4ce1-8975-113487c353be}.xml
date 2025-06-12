@@ -52,6 +52,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{f12794e7-0dac-4ce1-808c-d8498c169d65}">
+		<relationship name="masters">
+			<destination>{3ec69dba-32c0-4586-acbf-fce9ec5d23aa}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{74484754-834f-41e0-b146-607e982240c9}</destination>
 		</relationship>
@@ -502,10 +505,10 @@
 	<object class="MixerBusPanner" id="{59fd91ce-1534-459b-b390-2b42338f3ccc}" />
 	<object class="SFXReverbEffect" id="{ed602caa-6b03-4d5e-845e-da9ad35e197f}">
 		<property name="decayTime">
-			<value>700</value>
+			<value>200</value>
 		</property>
 		<property name="earlyDelay">
-			<value>195</value>
+			<value>70</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{52c3b9fd-e5bb-4c1d-a5ff-13c07aebb5a3}" />
