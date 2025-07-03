@@ -40,6 +40,9 @@
 		<property name="value">
 			<value>10220.8965</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{642bd0a2-7c26-481f-9940-93a0bce19c32}</destination>
+		</relationship>
 		<relationship name="automatableObject">
 			<destination>{a5d16b23-a0c7-4652-a412-7a981e280b00}</destination>
 		</relationship>
@@ -51,6 +54,9 @@
 		<property name="value">
 			<value>0.100000001</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{fd08b55c-4228-454e-abd0-01dba7e28ba3}</destination>
+		</relationship>
 		<relationship name="automatableObject">
 			<destination>{a5d16b23-a0c7-4652-a412-7a981e280b00}</destination>
 		</relationship>
@@ -81,5 +87,39 @@
 		<relationship name="mixerStrip">
 			<destination>{01bfcee4-076b-45ec-8e0a-89259f2a1286}</destination>
 		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{642bd0a2-7c26-481f-9940-93a0bce19c32}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>value</value>
+		</property>
+		<property name="peakValue">
+			<value>-50</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="sustainValue">
+			<value>-50</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{fd08b55c-4228-454e-abd0-01dba7e28ba3}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>value</value>
+		</property>
+		<property name="peakValue">
+			<value>-100</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="sustainValue">
+			<value>-100</value>
+		</property>
 	</object>
 </objects>

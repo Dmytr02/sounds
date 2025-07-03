@@ -114,6 +114,7 @@
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\fmodProject\Metadata\Event\{1e172004-fd19-4e0f-9015-fbf9073a86f0}.xml" />
     <None Include="Assets\fmodProject\Metadata\Snapshot\{716c3fcd-1730-45f5-b0d7-9e860bc7f9aa}.xml" />
+    <None Include="Assets\fmodProject\Metadata\ParameterPreset\{27204fb4-edb6-471d-b795-4406c3095bc8}.xml" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\fmodProject\Metadata\Asset\{937db625-5c53-4693-bd21-92ea1094db69}.xml" />
     <None Include="Assets\fmodProject\Metadata\Snapshot\{c67c1caf-1752-434b-b036-f85011282094}.xml" />
@@ -128,6 +129,7 @@
     <None Include="Assets\fmodProject\Metadata\Group\{142ed9e5-cfe2-4acd-acdf-f33a8a2eb009}.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\fmodProject\Metadata\Event\{d5c39d02-3f10-4392-92b5-ef80a75db845}.xml" />
+    <None Include="Assets\fmodProject\Metadata\VCA\{1c60fa70-3ebd-4b11-9f0a-931e9ccae110}.xml" />
     <None Include="Assets\fmodProject\Metadata\AudioFile\{ccb588d4-658b-4677-babe-dabf1283b8a6}.xml" />
     <None Include="Assets\fmodProject\Metadata\Asset\{13c3aaa5-7482-46b0-a930-daea7b3ba6b9}.xml" />
     <None Include="Assets\fmodProject\Metadata\AudioFile\{9c4f1fc0-024d-46ea-a0b7-d677c1cb89c7}.xml" />
@@ -168,6 +170,7 @@
     <None Include="Assets\fmodProject\Metadata\AudioFile\{65f47b37-037f-4b0c-b5f0-e3d799cd965e}.xml" />
     <None Include="Assets\fmodProject\Metadata\VCA\{41ac4a42-e07b-443d-bd82-2667c464642d}.xml" />
     <None Include="Assets\fmodProject\Metadata\Tags.xml" />
+    <None Include="Assets\fmodProject\Metadata\VCA\{8b9c604c-d048-4235-b355-34282ff44417}.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\fmodProject\Metadata\EffectPresetFolder\{b0606a59-56c9-4d6e-a35e-810049001a46}.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />

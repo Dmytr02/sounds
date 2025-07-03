@@ -51,6 +51,7 @@ public class Doors : MonoBehaviour, IInteractable
         // Ensure the rotation is exactly what we want at the end
         transform.rotation = targetRotation;
         isRotating = false;
+        RoomsSnap();
     }
 
     void PlaySound()
@@ -111,7 +112,6 @@ public class Doors : MonoBehaviour, IInteractable
             StartCoroutine(CloseOverTime(0.45f, Quaternion.Euler(0, 65, 0)));
             PlaySound();
             doorsOpened = false;
-            RoomsSnap();
         }
         else
         {
